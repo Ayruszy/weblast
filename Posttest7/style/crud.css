@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: url(../asset/Footer.png);
+    background-size: cover;
+    
+}
+
+.tanggal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.filter {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: .7;
+    background: rgb(233,76,161);
+}
+
+table{
+    position: absolute;
+    z-index: 2; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-58%);
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fafafa;
+    text-align: center;
+}
+
+th, td{
+padding: 12px 15px;
+}
+th{
+    background-color: rgb(255, 0, 157);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+} 
+td{
+    font-family: 'Open Sans' sans-serif;
+}
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
